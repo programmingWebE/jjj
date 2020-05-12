@@ -1,0 +1,41 @@
+.video__wrap {
+	position: relative;
+	z-index: 3;
+	height: 100%;
+	min-height: 1330px;
+}
+
+.video__wrap:after {
+	position: absolute;
+	z-index: -1;
+	content: ' ';
+	width: 100%;
+	min-height: 389px;
+	background-color: #fff;
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: top center;
+}
+
+.video__wrap:after {
+	top: 0px;
+	background-image: url(../img/icons/top-video.svg);
+}
+
+.video__block {
+	position: relative;
+	min-height: 1330px;
+	z-index: 4;
+	background-color: #75af26;
+	background-image: url(../img/icons/video-pc.png);
+	background-repeat: repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.video__content {
+	position: relative;
+	z-index: 5;
+}
+
